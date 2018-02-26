@@ -1,0 +1,29 @@
+body{
+	/*background: rgb(0,0,0); */
+	background: rgba(150,150,150,1);
+
+
+}
+
+header{
+	border: 1px solid orange;
+	text-align: center;
+
+}
+header nav ul li{
+	background: orange;
+	order: 1px solid orange
+	border-radius:5px;
+	display: inline-block;
+	width: 90px;
+
+}
+header nav ul li : hover 
+{
+	background: black;
+	order: 1px solid orange
+	border-radius:5px;
+	display: inline-block;
+	width: 90px;
+
+}
