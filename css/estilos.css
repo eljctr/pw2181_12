@@ -4,7 +4,12 @@ body{
 
 
 }
-
+footer{
+	border: 1px solid orange;
+	font-weight: bold; /*negritas*/
+	padding: 50px;
+	text-align: center;
+}
 header{
 	border: 1px solid orange;
 	text-align: center;
@@ -15,6 +20,9 @@ header nav ul li{
 	order: 1px solid orange
 	border-radius:5px;
 	display: inline-block;
+	margin-right: 20px;
+	/* margin :0px 20px 0px 0px; */
+	padding: 10px 20px;
 	width: 90px;
 
 }
@@ -26,4 +34,13 @@ header nav ul li : hover
 	display: inline-block;
 	width: 90px;
 
+}
+main article{
+	border: 1px dashed black;
+	display: inline-block;
+	vertical-align: top;
+	width: 32.65%;
+}
+main{
+	margin-top: 20px;
 }
