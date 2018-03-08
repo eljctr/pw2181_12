@@ -1,0 +1,17 @@
+body{
+font-style: 16px; /*em*/
+margin: 0 auto;
+max-width: 1078px;
+min-width: 1078px;
+}
+
+header input{
+	float:right;
+}
+#paint{
+	float: right;
+}
+#granthams{
+	margin-top: 25px;
+	margin-left: 25px;
+}
