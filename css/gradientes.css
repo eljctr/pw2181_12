@@ -1,0 +1,30 @@
+article{
+	border-radius: 5px;
+	border: 1px solid blue;
+	height: 50px;
+	margin-top: 10px;
+	width: 150px;
+}
+
+#uno{
+	/*si no soporta gradientes*/
+	background: red;
+	background: linear-gradient(to left, red,yellow);
+}
+
+#dos{
+	background: red;
+	background: linear-gradient(rgba(255,0,0,1),rgba(255,255,0,1));
+}
+
+#tres{
+	background: red;
+	background: linear-gradient(to left bottom,red,yellow);
+}
+
+#cuatro{
+	background: red;
+	background: linear-gradient(to right bottom, red,yellow);
+
+
+}
