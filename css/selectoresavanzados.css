@@ -1,0 +1,49 @@
+img[alt]{
+border: 5px solid blue
+
+}
+/*imagen con aributo SRC cadena exacta*/
+img[src="img/69d8744660562093b1a7f6a35e9fb61f-dise-o-del-lgbt-del-logotipo-del-coraz-n-by-vexels.png"]{
+width: 400px;
+}
+/*Imagen con atributo SRC con el inicio de la cadea*/
+img[src^="img"]{
+	width: 150px
+}
+
+/*imagen con atrubuto SRC al final*/
+img[src$="png"]{
+	width: 250px
+}
+/*imagen con atributo SRC cualquier parte de la cadena*/
+img[src*="mg"]{
+	
+}
+
+/*~indica que estos selecores estan separados por espacioos */
+article[class~="resaltado"]{
+	border: 1px dashed blue;
+
+}
+
+article[class~="archivo"]{
+	border: 1px dashed red;
+
+}
+
+article[class~="ingles"]{
+	border: 1px dashed green;
+
+}
+
+article[class |="ingles"]{
+	text-align:center;
+}
+/*solo hijos directos de div <p> */
+div > p{
+	color: blue;
+}
+/*barre con todos <p>*/
+div p{
+	color: red;
+}
