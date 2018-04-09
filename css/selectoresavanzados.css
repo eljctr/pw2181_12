@@ -47,3 +47,42 @@ div > p{
 div p{
 	color: red;
 }
+
+/*seleccionar solo el elemento <p> que esta inmediatamente despues del elemento <h2> hermano adyacente*/
+h2 + p{
+	color:green;
+}
+/* seleccionar todos los elementos <p> del elemento especificado
+hermano general*/
+h2~ p{
+	color: gray;
+}
+/*poner en color rojo el texto menos el id"referencias";*/
+#resumen,#experiment,#pruebas,#resultados,#conclusiones{
+	color: tomato;
+}
+/*poner en color rosa el texto de las secciones menos el id="referencias"*/
+section:not(#referencias){
+	color: hotpink;
+}
+
+li:nth-child(odd){/*impares*/
+	color: green;
+
+}
+
+li:nth-child(odd){/*pares*/
+	color: blue;
+
+}
+
+
+li:nth-child(5){/*quinto elemento*/
+	color: red;
+}
+
+p:first-line{
+	font-weight: bold;
+}
+
+
