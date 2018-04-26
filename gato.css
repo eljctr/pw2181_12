@@ -1,0 +1,4 @@
+td /* Todas las celdas de la tabla... */
+{
+    border: 1px solid black; /* tendrá un borde de 1 px */
+}
