@@ -8,18 +8,26 @@ var inicioApp= function(){
 		"&aleatorio="+Math.random();
 
 		$.ajax([{
-			cache:false;
+			cache:false,
 			type: "POST"
 			dataType: "json",
 			url: "php/validaentrada.php",
 			data: parametros,
 			success: function(response){
+				if (response.respuesta==true) {
+
+					$("#secInicio").hide("slow");
+					$("#secInicio").show("slow");
+				}else{
+					alert("Usuario o clave incorrecta");
+				}
 
 			},
 			error: function(xhr,ajaxOptions,thrownError){
-				
+				console.log(xhr);
+
 			}
-		})
+		});
 
 	}
 	$("#btnAceptar").on("click",Aceptar);
